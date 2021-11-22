@@ -21,13 +21,31 @@ body{
 }
 
 .container{
-    background-color:  rgb(19, 202, 19);;
     width: 700px;
 }
 
-.row{
-    background-color:  rgb(19, 202, 19);;
+#row18 .col12,
+#row16 .col11,
+#row1 .col12{
+    border-top-right-radius: 20px;
 }
+#row18 .col1,
+#row16 .col2,
+#row1 .col1{
+    border-top-left-radius: 20px;
+}
+
+#row22 .col11,
+#row20 .col12,
+#row12 .col12{
+    border-bottom-right-radius: 20px;
+}
+#row22 .col2,
+#row20 .col1,
+#row12 .col1{
+    border-bottom-left-radius: 20px;
+}
+
 
 .yellow{
     background-color: yellow;

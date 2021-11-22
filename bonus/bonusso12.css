@@ -10,17 +10,12 @@
 
 .container{
     max-width: 700px;
-    /*height: 100vh;*/
     margin: 0 auto;
-    background-color: chocolate;
 }
 
 .row{
     display: flex;
     flex-flow: row wrap;
-    /*height: 100px;
-    width: 100%;*/
-    background-color: red;
 }
 
     .col-xs-1{
