@@ -10,7 +10,7 @@
 }
 
 html{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 
 body{
@@ -22,17 +22,6 @@ body{
 
 .container{
     width: 700px;
-}
-
-#row18 .col12,
-#row16 .col11,
-#row1 .col12{
-    border-top-right-radius: 20px;
-}
-#row18 .col1,
-#row16 .col2,
-#row1 .col1{
-    border-top-left-radius: 20px;
 }
 
 #row22 .col11,
@@ -68,25 +57,25 @@ img{
 }
 
 #row1 .yellow{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row1 .col6.yellow,
 #row1 .col7.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 #row2 .yellow{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row2 .col5.yellow,
 #row2 .col6.yellow,
 #row2 .col7.yellow,
 #row2 .col8.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 #row3 .yellow{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row3 .col4.yellow,
 #row3 .col5.yellow,
@@ -94,13 +83,13 @@ img{
 #row3 .col7.yellow,
 #row3 .col8.yellow,
 #row3 .col9.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 #row4 .yellow,
 #row4 .black,
 #row4 .white{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row4 .col3.black,
 #row4 .col4.black,
@@ -110,7 +99,7 @@ img{
 #row4 .col8.yellow,
 #row4 .col10.black,
 #row4 .col9.black{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 
@@ -119,7 +108,7 @@ img{
 #row5 .yellow,
 #row5 .black,
 #row5 .white{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row5 .col2.black,
 #row5 .col3.white,
@@ -131,7 +120,7 @@ img{
 #row5 .col9.black,
 #row5 .col10.white,
 #row5 .col11.black{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 .occhio{
@@ -140,7 +129,7 @@ img{
     background-color: inherit;
 }
 #row5 .occhio{
-    animation: sbatti 1s 0s 2;
+    animation: sbatti 1s 4s 2;
 }
 
 @keyframes sbatti{
@@ -159,7 +148,7 @@ img{
 #row6 .yellow,
 #row6 .black,
 #row6 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row6 .col2.black,
 #row6 .col3.black,
@@ -171,13 +160,13 @@ img{
 #row6 .col9.black,
 #row6 .col10.black,
 #row6 .col11.black{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 #row7 .yellow,
 #row7 .black,
 #row7 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row7 .col2.yellow,
 #row7 .col3.yellow,
@@ -189,14 +178,14 @@ img{
 #row7 .col9.yellow,
 #row7 .col10.yellow,
 #row7 .col11.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 
 #row8 .yellow,
 #row8 .black,
 #row8 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row8 .col2.yellow,
 #row8 .col3.yellow,
@@ -208,14 +197,14 @@ img{
 #row8 .col9.yellow,
 #row8 .col10.yellow,
 #row8 .col11.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 
 #row9 .yellow,
 #row9 .black,
 #row9 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row9 .col2.yellow,
 #row9 .col3.yellow,
@@ -227,14 +216,14 @@ img{
 #row9 .col9.yellow,
 #row9 .col10.yellow,
 #row9 .col11.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 
 #row10 .yellow,
 #row10 .black,
 #row10 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row10 .col2.yellow,
 #row10 .col3.yellow,
@@ -246,14 +235,14 @@ img{
 #row10 .col9.orange,
 #row10 .col10.yellow,
 #row10 .col11.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 
 #row11 .yellow,
 #row11 .black,
 #row11 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row11 .col2.yellow,
 #row11 .col3.yellow,
@@ -265,13 +254,13 @@ img{
 #row11 .col9.orange,
 #row11 .col10.yellow,
 #row11 .col11.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 #row12 .yellow,
 #row12 .black,
 #row12 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row12 .col2.yellow,
 #row12 .col3.yellow,
@@ -283,14 +272,14 @@ img{
 #row12 .col9.orange,
 #row12 .col10.yellow,
 #row12 .col11.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 
 #row13 .yellow,
 #row13 .black,
 #row13 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row13 .col2.white,
 #row13 .col3.yellow,
@@ -302,13 +291,13 @@ img{
 #row13 .col9.yellow,
 #row13 .col10.yellow,
 #row13 .col11.white{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 #row14 .yellow,
 #row14 .black,
 #row14 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row14 .col2.white,
 #row14 .col3.yellow,
@@ -320,14 +309,14 @@ img{
 #row14 .col9.yellow,
 #row14 .col10.yellow,
 #row14 .col11.white{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 
 #row15 .yellow,
 #row15 .black,
 #row15 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row15 .col2.white,
 #row15 .col3.yellow,
@@ -339,14 +328,14 @@ img{
 #row15 .col9.yellow,
 #row15 .col10.yellow,
 #row15 .col11.white{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 
 #row16 .yellow,
 #row16 .black,
 #row16 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row16 .col2.yellow,
 #row16 .col3.yellow,
@@ -358,14 +347,14 @@ img{
 #row16 .col9.yellow,
 #row16 .col10.yellow,
 #row16 .col11.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 
 #row17 .yellow,
 #row17 .black,
 #row17 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row17 .col2.yellow,
 #row17 .col3.yellow,
@@ -377,17 +366,17 @@ img{
 #row17 .col9.yellow,
 #row17 .col10.yellow,
 #row17 .col11.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 #row17 .col1.white,
 #row17 .col12.white{ 
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 
 #row18 .yellow,
 #row18 .black,
 #row18 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row18 .col2.yellow,
 #row18 .col3.yellow,
@@ -399,14 +388,14 @@ img{
 #row18 .col9.yellow,
 #row18 .col10.yellow,
 #row18 .col11.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 
 #row19 .yellow,
 #row19 .black,
 #row19 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row19 .col3.yellow,
 #row19 .col4.yellow,
@@ -416,7 +405,7 @@ img{
 #row19 .col8.yellow,
 #row19 .col9.yellow,
 #row19 .col10.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 #row19 img{
     animation: opacizza 2s 4s forwards;
@@ -431,7 +420,7 @@ img{
 #row20 .yellow,
 #row20 .black,
 #row20 .black{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row20 .col4.yellow,
 #row20 .col5.yellow,
@@ -439,33 +428,31 @@ img{
 #row20 .col7.yellow,
 #row20 .col8.yellow,
 #row20 .col9.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 #row21 .yellow,
 #row21 .black,
 #row21 .white{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row21 .col5.yellow,
 #row21 .col6.yellow,
 #row21 .col7.yellow,
 #row21 .col8.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
 
 
 #row22 .yellow,
 #row22 .black,
 #row22 .white{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 #row22 .col6.yellow,
 #row22 .col7.yellow{ 
-    animation: cambiainrosa 2s 4s forwards;
+    animation: cambiainrosa 2s 7s forwards;
 }
-
-
 
 @keyframes cambiainverde{
     100%{
@@ -489,27 +476,27 @@ img{
 #row2 .col9,
 #row3 .col10,
 #row4 .col11{
-    animation: uovotopdx 2s 4s forwards;
+    animation: uovotopdx 2s 7s forwards;
 }
 #row1 .col5,
 #row2 .col4,
 #row3 .col3,
 #row4 .col2{
-    animation: uovotopsx 2s 4s forwards;
+    animation: uovotopsx 2s 7s forwards;
 }
 
 #row20 .col10,
 #row21 .col9,
 #row22 .col8,
 #row19 .col11{
-    animation: uovodx 2s 4s forwards;
+    animation: uovodx 2s 7s forwards;
 }
 
 #row19 .col2,
 #row22 .col5,
 #row21 .col4,
 #row20 .col3{
-    animation: uovosx 2s 4s forwards;
+    animation: uovosx 2s 7s forwards;
 }
 
 #row13 .col12,
@@ -520,7 +507,7 @@ img{
 #row14 .col1,
 #row15 .col1,
 #row16 .col1{
-    animation: cambiainverde 2s 4s forwards;
+    animation: cambiainverde 2s 7s forwards;
 }
 
 
@@ -549,5 +536,86 @@ img{
     100%{
         border-top-left-radius: 30px;
         background-color: burlywood;
+    }
+}
+
+#row1{
+    --order:22;
+}
+#row2{
+    --order:21;
+}
+#row3{
+    --order:20;
+}
+#row4{
+    --order:19;
+}
+#row5{
+    --order:18;
+}
+#row6{
+    --order:17;
+}
+#row7{
+    --order:16;
+}
+#row8{
+    --order:15;
+}
+#row9{
+    --order:14;
+}
+#row10{
+    --order:13;
+}
+#row11{
+    --order:12;
+}
+#row12{
+    --order:11;
+}
+#row13{
+    --order:10;
+}
+#row14{
+    --order:9;
+}
+#row15{
+    --order:8;
+}
+#row16{
+    --order:7;
+}
+#row17{
+    --order:6;
+}
+#row18{
+    --order:5;
+}
+#row19{
+    --order:4;
+}
+#row20{
+    --order:3;
+}
+#row21{
+    --order:2;
+}
+#row22{
+    --order:1;
+}
+
+
+.row{
+    position: relative;
+    bottom:560px;
+    animation:scendi 2s forwards;
+    animation-delay: calc(var(--order)*0.1s);
+}
+
+@keyframes scendi{
+    100%{
+        bottom:0;
     }
 }
