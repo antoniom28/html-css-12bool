@@ -1,0 +1,527 @@
+
+[class*="col-"]{
+    height: 30px;
+    /*border: 1px solid black;*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+html{
+    animation: cambiainverde 2s 4s forwards;
+}
+
+.container{
+    background-color:  rgb(19, 202, 19);;
+}
+
+.row{
+    background-color:  rgb(19, 202, 19);;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.black{
+    background-color: black;
+}
+.skyblue{
+    background-color: skyblue;
+}
+.white{
+    background-color: white;
+}
+
+img{
+    width: 30px;
+}
+
+#row1 .yellow{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row1 .col6.yellow,
+#row1 .col7.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+#row2 .yellow{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row2 .col5.yellow,
+#row2 .col6.yellow,
+#row2 .col7.yellow,
+#row2 .col8.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+#row3 .yellow{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row3 .col4.yellow,
+#row3 .col5.yellow,
+#row3 .col6.yellow,
+#row3 .col7.yellow,
+#row3 .col8.yellow,
+#row3 .col9.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+#row4 .yellow,
+#row4 .black,
+#row4 .white{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row4 .col3.black,
+#row4 .col4.black,
+#row4 .col5.yellow,
+#row4 .col6.yellow,
+#row4 .col7.yellow,
+#row4 .col8.yellow,
+#row4 .col10.black,
+#row4 .col9.black{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+
+
+
+#row5 .yellow,
+#row5 .black,
+#row5 .white{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row5 .col2.black,
+#row5 .col3.white,
+#row5 .col4.black,
+#row5 .col5.yellow,
+#row5 .col6.yellow,
+#row5 .col7.yellow,
+#row5 .col8.yellow,
+#row5 .col9.black,
+#row5 .col10.white,
+#row5 .col11.black{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+.occhio{
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+}
+#row5 .occhio{
+    animation: sbatti 1s 0s 2;
+}
+
+@keyframes sbatti{
+    0%{
+        background-color: white;
+    }
+    60%{
+        background-color: white;
+    }
+    100%{
+        background-color: black;
+    }
+}
+
+
+#row6 .yellow,
+#row6 .black,
+#row6 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row6 .col2.black,
+#row6 .col3.black,
+#row6 .col4.black,
+#row6 .col5.yellow,
+#row6 .col6.yellow,
+#row6 .col7.yellow,
+#row6 .col8.yellow,
+#row6 .col9.black,
+#row6 .col10.black,
+#row6 .col11.black{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+#row7 .yellow,
+#row7 .black,
+#row7 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row7 .col2.yellow,
+#row7 .col3.yellow,
+#row7 .col4.yellow,
+#row7 .col5.yellow,
+#row7 .col6.yellow,
+#row7 .col7.yellow,
+#row7 .col8.yellow,
+#row7 .col9.yellow,
+#row7 .col10.yellow,
+#row7 .col11.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+
+#row8 .yellow,
+#row8 .black,
+#row8 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row8 .col2.yellow,
+#row8 .col3.yellow,
+#row8 .col4.yellow,
+#row8 .col5.yellow,
+#row8 .col6.yellow,
+#row8 .col7.yellow,
+#row8 .col8.yellow,
+#row8 .col9.yellow,
+#row8 .col10.yellow,
+#row8 .col11.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+
+#row9 .yellow,
+#row9 .black,
+#row9 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row9 .col2.yellow,
+#row9 .col3.yellow,
+#row9 .col4.yellow,
+#row9 .col5.yellow,
+#row9 .col6.yellow,
+#row9 .col7.yellow,
+#row9 .col8.yellow,
+#row9 .col9.yellow,
+#row9 .col10.yellow,
+#row9 .col11.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+
+#row10 .yellow,
+#row10 .black,
+#row10 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row10 .col2.yellow,
+#row10 .col3.yellow,
+#row10 .col4.orange,
+#row10 .col5.orange,
+#row10 .col6.orange,
+#row10 .col7.orange,
+#row10 .col8.orange,
+#row10 .col9.orange,
+#row10 .col10.yellow,
+#row10 .col11.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+
+#row11 .yellow,
+#row11 .black,
+#row11 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row11 .col2.yellow,
+#row11 .col3.yellow,
+#row11 .col4.orange,
+#row11 .col5.orange,
+#row11 .col6.orange,
+#row11 .col7.orange,
+#row11 .col8.orange,
+#row11 .col9.orange,
+#row11 .col10.yellow,
+#row11 .col11.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+#row12 .yellow,
+#row12 .black,
+#row12 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row12 .col2.yellow,
+#row12 .col3.yellow,
+#row12 .col4.orange,
+#row12 .col5.orange,
+#row12 .col6.orange,
+#row12 .col7.orange,
+#row12 .col8.orange,
+#row12 .col9.orange,
+#row12 .col10.yellow,
+#row12 .col11.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+
+#row13 .yellow,
+#row13 .black,
+#row13 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row13 .col2.white,
+#row13 .col3.yellow,
+#row13 .col4.yellow,
+#row13 .col5.yellow,
+#row13 .col6.yellow,
+#row13 .col7.yellow,
+#row13 .col8.yellow,
+#row13 .col9.yellow,
+#row13 .col10.yellow,
+#row13 .col11.white{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+#row14 .yellow,
+#row14 .black,
+#row14 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row14 .col2.white,
+#row14 .col3.yellow,
+#row14 .col4.yellow,
+#row14 .col5.yellow,
+#row14 .col6.yellow,
+#row14 .col7.yellow,
+#row14 .col8.yellow,
+#row14 .col9.yellow,
+#row14 .col10.yellow,
+#row14 .col11.white{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+
+#row15 .yellow,
+#row15 .black,
+#row15 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row15 .col2.white,
+#row15 .col3.yellow,
+#row15 .col4.yellow,
+#row15 .col5.yellow,
+#row15 .col6.yellow,
+#row15 .col7.yellow,
+#row15 .col8.yellow,
+#row15 .col9.yellow,
+#row15 .col10.yellow,
+#row15 .col11.white{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+
+#row16 .yellow,
+#row16 .black,
+#row16 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row16 .col2.yellow,
+#row16 .col3.yellow,
+#row16 .col4.yellow,
+#row16 .col5.yellow,
+#row16 .col6.yellow,
+#row16 .col7.yellow,
+#row16 .col8.yellow,
+#row16 .col9.yellow,
+#row16 .col10.yellow,
+#row16 .col11.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+
+#row17 .yellow,
+#row17 .black,
+#row17 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row17 .col2.yellow,
+#row17 .col3.yellow,
+#row17 .col4.yellow,
+#row17 .col5.yellow,
+#row17 .col6.yellow,
+#row17 .col7.yellow,
+#row17 .col8.yellow,
+#row17 .col9.yellow,
+#row17 .col10.yellow,
+#row17 .col11.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+#row17 .col1.white,
+#row17 .col12.white{ 
+    animation: cambiainverde 2s 4s forwards;
+}
+
+#row18 .yellow,
+#row18 .black,
+#row18 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row18 .col2.yellow,
+#row18 .col3.yellow,
+#row18 .col4.yellow,
+#row18 .col5.yellow,
+#row18 .col6.yellow,
+#row18 .col7.yellow,
+#row18 .col8.yellow,
+#row18 .col9.yellow,
+#row18 .col10.yellow,
+#row18 .col11.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+
+#row19 .yellow,
+#row19 .black,
+#row19 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row19 .col3.yellow,
+#row19 .col4.yellow,
+#row19 .col5.yellow,
+#row19 .col6.yellow,
+#row19 .col7.yellow,
+#row19 .col8.yellow,
+#row19 .col9.yellow,
+#row19 .col10.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+#row19 img{
+    animation: opacizza 2s 4s forwards;
+}
+#row19 span{
+    animation: opacizza 2s 4s forwards;
+}
+
+
+
+
+#row20 .yellow,
+#row20 .black,
+#row20 .black{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row20 .col4.yellow,
+#row20 .col5.yellow,
+#row20 .col6.yellow,
+#row20 .col7.yellow,
+#row20 .col8.yellow,
+#row20 .col9.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+#row21 .yellow,
+#row21 .black,
+#row21 .white{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row21 .col5.yellow,
+#row21 .col6.yellow,
+#row21 .col7.yellow,
+#row21 .col8.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+
+#row22 .yellow,
+#row22 .black,
+#row22 .white{
+    animation: cambiainverde 2s 4s forwards;
+}
+#row22 .col6.yellow,
+#row22 .col7.yellow{ 
+    animation: cambiainrosa 2s 4s forwards;
+}
+
+
+
+@keyframes cambiainverde{
+    100%{
+        background-color: rgb(19, 202, 19);
+    }
+}
+
+@keyframes cambiainrosa{
+    100%{
+        background-color: burlywood;
+    }
+}
+
+@keyframes opacizza{
+    100%{
+        opacity: 0;
+    }
+}
+
+#row1 .col8,
+#row2 .col9,
+#row3 .col10,
+#row4 .col11{
+    animation: uovotopdx 2s 4s forwards;
+}
+#row1 .col5,
+#row2 .col4,
+#row3 .col3,
+#row4 .col2{
+    animation: uovotopsx 2s 4s forwards;
+}
+
+#row20 .col10,
+#row21 .col9,
+#row22 .col8,
+#row19 .col11{
+    animation: uovodx 2s 4s forwards;
+}
+
+#row19 .col2,
+#row22 .col5,
+#row21 .col4,
+#row20 .col3{
+    animation: uovosx 2s 4s forwards;
+}
+
+#row13 .col12,
+#row14 .col12,
+#row15 .col12,
+#row16 .col12,
+#row13 .col1,
+#row14 .col1,
+#row15 .col1,
+#row16 .col1{
+    animation: cambiainverde 2s 4s forwards;
+}
+
+
+
+@keyframes uovodx{
+    100%{
+        border-bottom-right-radius: 30px;
+        background-color: burlywood;
+    }
+}
+
+@keyframes uovosx{
+    100%{
+        border-bottom-left-radius: 30px;
+        background-color: burlywood;
+    }
+}
+@keyframes uovotopdx{
+    100%{
+        border-top-right-radius: 30px;
+        background-color: burlywood;
+    }
+}
+
+@keyframes uovotopsx{
+    100%{
+        border-top-left-radius: 30px;
+        background-color: burlywood;
+    }
+}
