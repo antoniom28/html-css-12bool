@@ -13,8 +13,16 @@ html{
     animation: cambiainverde 2s 4s forwards;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .container{
     background-color:  rgb(19, 202, 19);;
+    width: 700px;
 }
 
 .row{
